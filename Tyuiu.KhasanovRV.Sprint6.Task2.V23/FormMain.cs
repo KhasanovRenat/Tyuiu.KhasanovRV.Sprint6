@@ -51,10 +51,11 @@ namespace Tyuiu.KhasanovRV.Sprint6.Task2.V23
                 MessageBox.Show("Введены неверные данные", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        
 
         private void buttonInfo_KRV_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 1 выполнил студент группы СМАРТб-23-1 Хасанов Ренат Владиславович", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Таск 2 выполнил студент группы СМАРТб-23-1 Хасанов Ренат Владиславович", "Информация", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         private void textBoxStart_KRV_KeyPress(object sender, KeyPressEventArgs e)
         {
