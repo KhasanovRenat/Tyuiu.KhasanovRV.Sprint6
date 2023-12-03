@@ -13,7 +13,7 @@ namespace Tyuiu.KhasanovRV.Sprint6.Task3.V27.Lib
         public int[,] Calculate(int[,] matrix)
         {
             int rows = matrix.GetUpperBound(0) + 1;
-            int cols = matrix.Length / rows;
+
 
             int[] list = new int[rows];
             for (int i = 0; i < rows; i++)
