@@ -51,6 +51,7 @@ namespace Tyuiu.KhasanovRV.Sprint6.Task2.V23
                 MessageBox.Show("Введены неверные данные", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        
 
         private void buttonInfo_KRV_Click(object sender, EventArgs e)
         {
