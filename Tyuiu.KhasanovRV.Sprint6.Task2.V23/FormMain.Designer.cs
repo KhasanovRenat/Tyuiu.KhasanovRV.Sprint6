@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.buttonInfo_KRV = new System.Windows.Forms.Button();
             this.buttonRun_KRV = new System.Windows.Forms.Button();
@@ -63,6 +63,7 @@
             this.buttonInfo_KRV.TabIndex = 17;
             this.buttonInfo_KRV.Text = "INFO";
             this.buttonInfo_KRV.UseVisualStyleBackColor = true;
+            this.buttonInfo_KRV.Click += new System.EventHandler(this.buttonInfo_KRV_Click);
             // 
             // buttonRun_KRV
             // 
@@ -166,19 +167,19 @@
             // 
             // chartFunction_KRV
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chartFunction_KRV.ChartAreas.Add(chartArea4);
-            legend4.Enabled = false;
-            legend4.Name = "Legend1";
-            this.chartFunction_KRV.Legends.Add(legend4);
+            chartArea1.Name = "ChartArea1";
+            this.chartFunction_KRV.ChartAreas.Add(chartArea1);
+            legend1.Enabled = false;
+            legend1.Name = "Legend1";
+            this.chartFunction_KRV.Legends.Add(legend1);
             this.chartFunction_KRV.Location = new System.Drawing.Point(225, 26);
             this.chartFunction_KRV.Name = "chartFunction_KRV";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series4.IsVisibleInLegend = false;
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.chartFunction_KRV.Series.Add(series4);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartFunction_KRV.Series.Add(series1);
             this.chartFunction_KRV.Size = new System.Drawing.Size(394, 399);
             this.chartFunction_KRV.TabIndex = 3;
             this.chartFunction_KRV.Text = "chart1";
