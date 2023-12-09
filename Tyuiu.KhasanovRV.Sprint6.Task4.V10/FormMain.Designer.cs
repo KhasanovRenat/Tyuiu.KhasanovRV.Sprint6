@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title4 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.groupBoxInfo_KRV = new System.Windows.Forms.GroupBox();
             this.textBoxInfo_KRV = new System.Windows.Forms.TextBox();
             this.groupBoxInPut_KRV = new System.Windows.Forms.GroupBox();
@@ -69,6 +69,7 @@
             this.textBoxInfo_KRV.Location = new System.Drawing.Point(6, 18);
             this.textBoxInfo_KRV.Multiline = true;
             this.textBoxInfo_KRV.Name = "textBoxInfo_KRV";
+            this.textBoxInfo_KRV.ReadOnly = true;
             this.textBoxInfo_KRV.Size = new System.Drawing.Size(496, 67);
             this.textBoxInfo_KRV.TabIndex = 0;
             this.textBoxInfo_KRV.Text = resources.GetString("textBoxInfo_KRV.Text");
@@ -166,26 +167,26 @@
             // 
             // chartGraph_KRV
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chartGraph_KRV.ChartAreas.Add(chartArea4);
-            legend4.Enabled = false;
-            legend4.Name = "Legend1";
-            this.chartGraph_KRV.Legends.Add(legend4);
+            chartArea1.Name = "ChartArea1";
+            this.chartGraph_KRV.ChartAreas.Add(chartArea1);
+            legend1.Enabled = false;
+            legend1.Name = "Legend1";
+            this.chartGraph_KRV.Legends.Add(legend1);
             this.chartGraph_KRV.Location = new System.Drawing.Point(523, 109);
             this.chartGraph_KRV.Name = "chartGraph_KRV";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.chartGraph_KRV.Series.Add(series4);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartGraph_KRV.Series.Add(series1);
             this.chartGraph_KRV.Size = new System.Drawing.Size(660, 647);
             this.chartGraph_KRV.TabIndex = 3;
             this.chartGraph_KRV.Text = "График функции F(x)";
-            title4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            title4.ForeColor = System.Drawing.Color.MediumBlue;
-            title4.Name = "TitleFunc_KRV";
-            title4.Text = "График функции F(x)";
-            this.chartGraph_KRV.Titles.Add(title4);
+            title1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            title1.ForeColor = System.Drawing.Color.MediumBlue;
+            title1.Name = "TitleFunc_KRV";
+            title1.Text = "График функции F(x)";
+            this.chartGraph_KRV.Titles.Add(title1);
             // 
             // textBoxOutPut_KRV
             // 
