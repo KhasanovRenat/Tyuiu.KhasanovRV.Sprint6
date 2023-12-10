@@ -26,6 +26,7 @@ namespace Tyuiu.KhasanovRV.Sprint6.Task6.V24.Lib
                         }
                     }
                 }
+
                 return resStr;
             }
     }
