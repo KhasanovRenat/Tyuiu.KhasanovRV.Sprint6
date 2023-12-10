@@ -237,7 +237,7 @@
             this.Controls.Add(this.buttonFileOpen_KRV);
             this.Controls.Add(this.groupBoxUslov_KRV);
             this.Name = "FormMain";
-            this.Text = "Form1";
+            this.Text = "Спринт 6 | Таск 7 | Вариант 22 | Хасанов Р. В.";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBoxOutPut_KRV.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOutPut_KRV)).EndInit();
