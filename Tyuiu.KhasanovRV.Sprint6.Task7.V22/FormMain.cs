@@ -146,6 +146,12 @@ namespace Tyuiu.KhasanovRV.Sprint6.Task7.V22
             FormAbout formAbout = new FormAbout();
             formAbout.ShowDialog();
         }
+
+        private void buttonHelp_KRV_MouseEnter(object sender, EventArgs e)
+        {
+            toolTipTask_KRV.ToolTipTitle = "О программе";
+        }
+
         public static int[,] LoadFromFileData(string filePath)
         {
             string fileDta = File.ReadAllText(filePath);

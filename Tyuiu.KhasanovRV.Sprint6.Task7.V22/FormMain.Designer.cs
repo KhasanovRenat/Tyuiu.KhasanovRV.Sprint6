@@ -34,26 +34,26 @@
             this.buttonDone_KRV = new System.Windows.Forms.Button();
             this.buttonFileOpen_KRV = new System.Windows.Forms.Button();
             this.groupBoxOutPut_KRV = new System.Windows.Forms.GroupBox();
+            this.dataGridViewOutPut_KRV = new System.Windows.Forms.DataGridView();
             this.groupBoxInPut_KRV = new System.Windows.Forms.GroupBox();
+            this.dataGridViewInPut_KRV = new System.Windows.Forms.DataGridView();
             this.groupBoxUslov_KRV = new System.Windows.Forms.GroupBox();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.buttonSaveFile_KRV = new System.Windows.Forms.Button();
             this.openFileDialogTask_KRV = new System.Windows.Forms.OpenFileDialog();
             this.toolTipTask_KRV = new System.Windows.Forms.ToolTip(this.components);
-            this.dataGridViewInPut_KRV = new System.Windows.Forms.DataGridView();
-            this.dataGridViewOutPut_KRV = new System.Windows.Forms.DataGridView();
             this.saveFileDialogMatrix_KRV = new System.Windows.Forms.SaveFileDialog();
             this.panelLeft_KRV = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panelRight_KRV = new System.Windows.Forms.Panel();
             this.groupBoxOutPut_KRV.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOutPut_KRV)).BeginInit();
             this.groupBoxInPut_KRV.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInPut_KRV)).BeginInit();
             this.groupBoxUslov_KRV.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInPut_KRV)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOutPut_KRV)).BeginInit();
             this.panelLeft_KRV.SuspendLayout();
             this.panelRight_KRV.SuspendLayout();
             this.SuspendLayout();
@@ -66,9 +66,10 @@
             this.buttonHelp_KRV.Name = "buttonHelp_KRV";
             this.buttonHelp_KRV.Size = new System.Drawing.Size(86, 86);
             this.buttonHelp_KRV.TabIndex = 6;
-            this.toolTipTask_KRV.SetToolTip(this.buttonHelp_KRV, "О программе");
+            this.toolTipTask_KRV.SetToolTip(this.buttonHelp_KRV, "Информация о программе");
             this.buttonHelp_KRV.UseVisualStyleBackColor = true;
             this.buttonHelp_KRV.Click += new System.EventHandler(this.buttonHelp_KRV_Click);
+            this.buttonHelp_KRV.MouseEnter += new System.EventHandler(this.buttonHelp_KRV_MouseEnter);
             // 
             // buttonDone_KRV
             // 
@@ -109,6 +110,19 @@
             this.groupBoxOutPut_KRV.TabStop = false;
             this.groupBoxOutPut_KRV.Text = "Вывод";
             // 
+            // dataGridViewOutPut_KRV
+            // 
+            this.dataGridViewOutPut_KRV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewOutPut_KRV.ColumnHeadersVisible = false;
+            this.dataGridViewOutPut_KRV.Location = new System.Drawing.Point(9, 21);
+            this.dataGridViewOutPut_KRV.Name = "dataGridViewOutPut_KRV";
+            this.dataGridViewOutPut_KRV.ReadOnly = true;
+            this.dataGridViewOutPut_KRV.RowHeadersVisible = false;
+            this.dataGridViewOutPut_KRV.RowHeadersWidth = 51;
+            this.dataGridViewOutPut_KRV.RowTemplate.Height = 24;
+            this.dataGridViewOutPut_KRV.Size = new System.Drawing.Size(321, 313);
+            this.dataGridViewOutPut_KRV.TabIndex = 0;
+            // 
             // groupBoxInPut_KRV
             // 
             this.groupBoxInPut_KRV.Controls.Add(this.dataGridViewInPut_KRV);
@@ -119,6 +133,19 @@
             this.groupBoxInPut_KRV.TabIndex = 5;
             this.groupBoxInPut_KRV.TabStop = false;
             this.groupBoxInPut_KRV.Text = "Ввод";
+            // 
+            // dataGridViewInPut_KRV
+            // 
+            this.dataGridViewInPut_KRV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewInPut_KRV.ColumnHeadersVisible = false;
+            this.dataGridViewInPut_KRV.Location = new System.Drawing.Point(6, 21);
+            this.dataGridViewInPut_KRV.Name = "dataGridViewInPut_KRV";
+            this.dataGridViewInPut_KRV.ReadOnly = true;
+            this.dataGridViewInPut_KRV.RowHeadersVisible = false;
+            this.dataGridViewInPut_KRV.RowHeadersWidth = 51;
+            this.dataGridViewInPut_KRV.RowTemplate.Height = 24;
+            this.dataGridViewInPut_KRV.Size = new System.Drawing.Size(631, 313);
+            this.dataGridViewInPut_KRV.TabIndex = 0;
             // 
             // groupBoxUslov_KRV
             // 
@@ -173,32 +200,6 @@
             // 
             this.toolTipTask_KRV.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             // 
-            // dataGridViewInPut_KRV
-            // 
-            this.dataGridViewInPut_KRV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewInPut_KRV.ColumnHeadersVisible = false;
-            this.dataGridViewInPut_KRV.Location = new System.Drawing.Point(6, 21);
-            this.dataGridViewInPut_KRV.Name = "dataGridViewInPut_KRV";
-            this.dataGridViewInPut_KRV.ReadOnly = true;
-            this.dataGridViewInPut_KRV.RowHeadersVisible = false;
-            this.dataGridViewInPut_KRV.RowHeadersWidth = 51;
-            this.dataGridViewInPut_KRV.RowTemplate.Height = 24;
-            this.dataGridViewInPut_KRV.Size = new System.Drawing.Size(631, 313);
-            this.dataGridViewInPut_KRV.TabIndex = 0;
-            // 
-            // dataGridViewOutPut_KRV
-            // 
-            this.dataGridViewOutPut_KRV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewOutPut_KRV.ColumnHeadersVisible = false;
-            this.dataGridViewOutPut_KRV.Location = new System.Drawing.Point(9, 21);
-            this.dataGridViewOutPut_KRV.Name = "dataGridViewOutPut_KRV";
-            this.dataGridViewOutPut_KRV.ReadOnly = true;
-            this.dataGridViewOutPut_KRV.RowHeadersVisible = false;
-            this.dataGridViewOutPut_KRV.RowHeadersWidth = 51;
-            this.dataGridViewOutPut_KRV.RowTemplate.Height = 24;
-            this.dataGridViewOutPut_KRV.Size = new System.Drawing.Size(321, 313);
-            this.dataGridViewOutPut_KRV.TabIndex = 0;
-            // 
             // panelLeft_KRV
             // 
             this.panelLeft_KRV.Controls.Add(this.panel2);
@@ -239,12 +240,12 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.groupBoxOutPut_KRV.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOutPut_KRV)).EndInit();
             this.groupBoxInPut_KRV.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInPut_KRV)).EndInit();
             this.groupBoxUslov_KRV.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInPut_KRV)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOutPut_KRV)).EndInit();
             this.panelLeft_KRV.ResumeLayout(false);
             this.panelRight_KRV.ResumeLayout(false);
             this.ResumeLayout(false);
